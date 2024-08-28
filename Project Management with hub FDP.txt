@@ -1,0 +1,110 @@
+Project Management with hub
+
+open source(anyone can use)
+
+commit-save something to the repository
+strashing-temporarily store changes
+remote reposi-online
+collaborating workflow
+
+Git installation check and configuration
+download and install git-scm.com
+
+
+git config --global user.name "Your Name"
+
+git config --global user.name "Gmail-ID"
+
+git config --global user.name "Raghusan"
+
+git config --global user.email "mssuganya2015@gmail.com"
+
+git config --list
+
+ 
+ls -To display files and folders in C Drive
+
+
+cd Desktop/   (myproject)
+cd GitLab/
+
+
+Create a README file
+echo "# My Project" > README.md
+
+Stage the file
+git add README.md
+
+Commit the file
+git commit -m "Initial Commit"
+
+Basic Git commands
+Workflow
+Working directory-our folder
+Staging area-prepare your changes before committing
+Repository-pushing
+
+git status
+git add
+git commit
+git log
+
+Create three files
+echo "Hello World!" > file1.txt
+echo "Another file" > file2.txt
+echo "Yet another file" > file3.txt
+
+git add file1.txt file2.txt
+git commit -m "add two new files"
+git log
+
+Creating and Managing branches
+
+git branch  #List branches
+git branch new-branch  #create a new branch
+git checkout new-branch #switch to branch
+git merge new-branch
+
+
+git branch feature-branch
+git branch
+git checkout feature-branch
+git branch
+
+echo "new branch"> newBranchFile.txt
+
+git 
+
+echo "new branch"> newBranchFile.txt
+ls
+git checkout "master"
+ls
+git checkout "feature-branch"
+git add newBranchFile.txt
+git commit -m "added new branch file to the new file"
+ls
+git merge feature-branch
+
+Stashing
+Temporarily saves changes in your work directory
+
+echo "work in progress" >temp.txt
+git add temp.txt
+git stash
+
+git checkout "master"
+git stash pop
+
+Collaboration and Remote repositories
+
+Create a folder
+cd..
+cd suhas/
+
+git clone URL  # to copy from GitHub to my local folder
+git clone https://github.com/Suganya-tech/DemoGroup1.git  #URL from github
+
+git fetch origin   #fetch updates from origin
+git pull 
+
+
